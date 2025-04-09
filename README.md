@@ -21,6 +21,7 @@ This project demonstrates a complete CI/CD pipeline using **Jenkins**, **Docker*
 - EC2 instance (Ubuntu 20.04 or Amazon Linux)
 - Instance type: `t2.medium` or higher
 - Inbound rules: open **port 8080** (Jenkins) and **port 3000** (App)
+  
 ![image](https://github.com/user-attachments/assets/3c6342bc-7516-488a-8435-6066b2e959f0)
 
 
@@ -63,5 +64,14 @@ pipeline {
         }
     }
 }
-![Screenshot 2025-04-09 095714](https://github.com/user-attachments/assets/201b718b-8854-40f4-b737-e7368ebfd239)
+
+---
+
+
+![image](https://github.com/user-attachments/assets/67ba105d-9132-4aa0-a0f5-fbb1c610ae0d)
+
+## 🐳 Dockerfile
+
+
+
 
