@@ -1,40 +1,25 @@
 pipeline {
     agent any
 
-    environment {
-        IMAGE_NAME = 'jenkins-demo-app'
-        PORT = '3000'
-    }
-
     stages {
-        stage('Clone') {
-            steps {
-                git url: 'https://github.com/sultanashah/Jenkins-cicd-demo-app.git', branch: 'main'
-            }
-        }
-
         stage('Build') {
             steps {
-                sh 'docker build -t $IMAGE_NAME .'
+                sh 'docker build -t jenkins-demo-app .'
             }
         }
 
         stage('Test') {
             steps {
-                echo 'No tests added yet!'
+                echo '🧪 Skipping actual tests for now...'
             }
         }
 
         stage('Deploy') {
             steps {
-                sh 'docker run -d -p $PORT:3000 --name demo-app $IMAGE_NAME'
+                sh 'docker stop demo-app || true'
+                sh 'docker rm demo-app || true'
+                sh 'docker run -d --name demo-app -p 3000:3000 jenkins-demo-app'
             }
-        }
-    }
-
-    post {
-        always {
-            echo 'Pipeline complete.'
         }
     }
 }
