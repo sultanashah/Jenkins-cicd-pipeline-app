@@ -63,14 +63,5 @@ pipeline {
         }
     }
 }
+![Screenshot 2025-04-09 095714](https://github.com/user-attachments/assets/201b718b-8854-40f4-b737-e7368ebfd239)
 
-![image](https://github.com/user-attachments/assets/3fabeff0-e543-4941-8049-fb24bf9d35bb)
-
-🐳## Dockerfile
-
-FROM node:16
-WORKDIR /app
-COPY . .
-RUN npm install
-EXPOSE 3000
-CMD ["npm", "start"]
