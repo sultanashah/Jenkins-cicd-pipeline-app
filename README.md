@@ -34,6 +34,11 @@ The Jenkins pipeline is defined in a `Jenkinsfile` and includes the following st
 3. **Test**: (Placeholder for future test scripts)
 4. **Deploy**: Runs the app in a Docker container on port `3000`
 
+![image](https://github.com/user-attachments/assets/fa5a4c88-d47d-4d4e-b895-fbcda37849c5)
+![Screenshot 2025-04-09 095714](https://github.com/user-attachments/assets/aec66699-0d78-4236-b42d-1c47efcea8f7)
+
+
+
 ---
 
 ## 📂 Jenkinsfile Structure
@@ -66,12 +71,6 @@ pipeline {
 }
 
 ---
-
-
-![image](https://github.com/user-attachments/assets/67ba105d-9132-4aa0-a0f5-fbb1c610ae0d)
-
-## 🐳 Dockerfile  ![Screenshot 2025-04-09 101510](https://github.com/user-attachments/assets/838b8404-284e-45e3-8429-41a1a00fd898)
-
 
 
 
