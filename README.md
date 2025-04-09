@@ -70,7 +70,8 @@ pipeline {
 
 ![image](https://github.com/user-attachments/assets/67ba105d-9132-4aa0-a0f5-fbb1c610ae0d)
 
-## 🐳 Dockerfile
+## 🐳 Dockerfile  ![Screenshot 2025-04-09 101510](https://github.com/user-attachments/assets/838b8404-284e-45e3-8429-41a1a00fd898)
+
 
 
 
