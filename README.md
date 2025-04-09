@@ -63,7 +63,5 @@ pipeline {
         }
     }
 }
-![image](https://github.com/user-attachments/assets/5be57104-8e2c-4d49-a469-38a225da4ef4)
-
 ![Screenshot 2025-04-09 095714](https://github.com/user-attachments/assets/201b718b-8854-40f4-b737-e7368ebfd239)
 
